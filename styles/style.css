@@ -244,7 +244,9 @@ footer {
     .footer-menu ul {
         flex-direction: column;
     } 
-    
+    .view {
+        visibility: visible;
+    }
 }
 @media screen and (min-width:769px) and (max-width: 1220px) {
     .container {
