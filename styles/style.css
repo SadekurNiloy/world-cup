@@ -140,6 +140,18 @@ hr {
 .main-info p {
     margin-right: 30px;
 }
+.view  {
+    padding: 10px 30px;
+    background-color: violet;
+    border: 1px solid violet;
+    border-radius: 10px;
+    visibility:hidden;
+}
+.view a {
+    text-decoration: none;
+    color: #ffffff;
+
+}
 
 /* footer style  */
 footer {
@@ -193,6 +205,9 @@ footer {
     .main-left ul {
         display: flex;
         flex-direction: column;
+    }
+    .view {
+        visibility: visible;
     }
 }
 @media screen and (max-width:768px) {
