@@ -136,8 +136,9 @@ hr {
 }
 .main-info {
     display: flex;
-    justify-content: space-between;
-    
+}
+.main-info p {
+    margin-right: 30px;
 }
 
 /* footer style  */
